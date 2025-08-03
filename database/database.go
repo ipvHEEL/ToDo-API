@@ -1,6 +1,7 @@
 package database
 
 import (
+	"ToDo-API/models"
 	"log"
 
 	"gorm.io/driver/sqlite"
@@ -21,5 +22,6 @@ func Connect() {
 	if err != nil {
 		log.Fatal("Не удалось подключиться к базе данных:", err)
 	}
-	DB.AutoMigrate(&User{})
+
+	DB.AutoMigrate(&models.Task{})
 }
