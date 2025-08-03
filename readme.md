@@ -31,7 +31,9 @@
 ##  Установка и запуск
 
 ### 
+```
 git clone https://github.com/ipvHEEL/ToDo-API.git
 cd ToDo-API
 go mod tidy
 go run main.go
+```
