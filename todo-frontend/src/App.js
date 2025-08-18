@@ -132,7 +132,7 @@ function App() {
               className="btn btn-outline-info"
               style={{ fontWeight: 'bold' }}
             >
-              ✚ Добавить
+               Добавить
             </motion.button>
           </motion.form>
 
