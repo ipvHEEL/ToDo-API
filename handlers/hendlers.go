@@ -23,3 +23,9 @@ func CreateTask(c *gin.Context) {
 	database.DB.Create(&tasks)
 	c.JSON(http.StatusOK, tasks)
 }
+
+// func DeleteTask(c *gin.Connect) {
+// 	var tasks models.tasks
+// 	database.DB.DeleteTask(&tasks)
+// 	c.JSON(http.StatusOK, tasks)
+// }
