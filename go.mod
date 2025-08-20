@@ -1,6 +1,6 @@
 module ToDo-API
 
-go 1.24.5
+go 1.24
 
 require (
 	github.com/bytedance/sonic v1.13.3 // indirect
