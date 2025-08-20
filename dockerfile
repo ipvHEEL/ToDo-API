@@ -4,5 +4,5 @@ WORKDIR /app
 
 copy . .
 
-RUN go build -o main
+RUN go build main.go -o main
 CMD ["./main"]
