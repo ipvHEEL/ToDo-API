@@ -16,7 +16,8 @@
 -  Добавление задачи (`POST /tasks`)
 -  Получение всех задач (`GET /tasks`)
 - Удаление задач (`DELETE /tasks`)
-
+## Пример POST запроса
+``` - curl -X POST http://localhost:8080/tasks ^     -H "Content-Type: application/json" ^     -d "{\"title\":\"Docker работает\",\"description\":\"Описание POST запроса\"}" ```
 ---
 
 ##  Технологии
