@@ -17,8 +17,9 @@
 -  Получение всех задач (`GET /tasks`)
 - Удаление задач (`DELETE /tasks`)
 ## Пример POST запроса
-
-```bash - curl -X POST http://localhost:8080/tasks ^     -H "Content-Type: application/json" ^     -d "{\"title\":\"Шапка\",\"description\":\"Описание\"}" ```
+```
+bash - curl -X POST http://localhost:8080/tasks ^     -H "Content-Type: application/json" ^     -d "{\"title\":\"Шапка\",\"description\":\"Описание\"}"
+```
 ---
 
 ##  Технологии
@@ -33,7 +34,8 @@
 ## Установка и запуск
 
 ### 1. Клонируй репозиторий
-```bash
+```
+bash
 git clone https://github.com/ipvHEEL/ToDo-API.git
 cd ToDo-API
 go mod tidy
